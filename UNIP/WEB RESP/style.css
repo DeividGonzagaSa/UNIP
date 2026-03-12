@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: rgb(255, 251, 250);
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+}
+
+body { 
+    font-size: 100%;
+    background: linear-gradient(to left, #75A997, #75A1A9);
+}
+
+.cabeça { 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 22px;
+}
+
+.imgheader{ 
+    border-radius: 40px;
+    width: 30px;
+}
+
+.menu { 
+    display: flex;
+    gap: 12px;
+    font-weight: 600;
+}
+
+.imgmain { 
+   width: 290px;
+   border-radius: 200px;
+   display: flex;
+   margin-top: 80px;
+}
+
+main { 
+    border-top: 0.2px solid white;
+    margin-bottom: 48px;
+
+}
+
+footer { 
+     border-top: 0.2px solid white;
+}
+
+.conteudoprincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoprincipal-texto{ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: 20px;
+    font-size: 20px;
+    font-family: 'funnel sans', sans-serif;
+
+}
+
+.titulomain { 
+    font-size: 70px;
+    font-family: 'arizonia', sans-serif;
+}
+
+.conteudosecundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    gap: 6px;
+}
+
+
+
+
+
+
